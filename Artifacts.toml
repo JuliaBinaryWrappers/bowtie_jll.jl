@@ -5,7 +5,7 @@ os = "macos"
 
     [[bowtie.download]]
     sha256 = "51c80775735ac46eadf6e6ac8edfe1a32da92d5faba24f29cadcf138ff9fc0c9"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+0/bowtie.v2.5.1.aarch64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+1/bowtie.v2.5.1.aarch64-apple-darwin.tar.gz"
 [[bowtie]]
 arch = "x86_64"
 git-tree-sha1 = "76eb3c5e501bce3de32cd08e0b5b7c84e8b28a2e"
@@ -13,7 +13,7 @@ os = "macos"
 
     [[bowtie.download]]
     sha256 = "79747f3cbe42fa6fe7156e18b243e65ef5dda093ef8e8d3ca0f2b8c016941b01"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+0/bowtie.v2.5.1.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+1/bowtie.v2.5.1.x86_64-apple-darwin.tar.gz"
 [[bowtie]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -23,7 +23,7 @@ os = "linux"
 
     [[bowtie.download]]
     sha256 = "fddd26a90726a4840847e1849fd8ef6c4b9ec134cef5f4a36b671103e2335b9e"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+0/bowtie.v2.5.1.x86_64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+1/bowtie.v2.5.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[bowtie]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -33,7 +33,7 @@ os = "linux"
 
     [[bowtie.download]]
     sha256 = "5dfdb74081a7ecd790d9e87200aca426f4cd32831ae1f30ba14a2ea57e43519f"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+0/bowtie.v2.5.1.x86_64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+1/bowtie.v2.5.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[bowtie]]
 arch = "x86_64"
 git-tree-sha1 = "240db84091201a6ae1b798eddcffdc9fc36428c5"
@@ -41,4 +41,4 @@ os = "freebsd"
 
     [[bowtie.download]]
     sha256 = "9cff96f5310b75082378b6bcfc9c7a9a2ea6a4392553734d7b505cadd210b2be"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+0/bowtie.v2.5.1.x86_64-unknown-freebsd.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+1/bowtie.v2.5.1.x86_64-unknown-freebsd.tar.gz"
