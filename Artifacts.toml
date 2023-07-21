@@ -1,44 +1,104 @@
 [[bowtie]]
 arch = "aarch64"
-git-tree-sha1 = "00a3c3e8540f3a6748cbb2f69e5b82eb9751a537"
+git-tree-sha1 = "d5406ecf661e9644bfa6f897394cb2db25f367ce"
 os = "macos"
 
     [[bowtie.download]]
-    sha256 = "51c80775735ac46eadf6e6ac8edfe1a32da92d5faba24f29cadcf138ff9fc0c9"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+2/bowtie.v2.5.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "760a508024c3b3f5f18f22ff0d4f15b7ce1e1e1a406fa52126c5227b249712b7"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.aarch64-apple-darwin.tar.gz"
+[[bowtie]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6d434726995e6e57e2ee3762ca948bf8956bc534"
+libc = "glibc"
+os = "linux"
+
+    [[bowtie.download]]
+    sha256 = "c6742e6e225d4fc8a5dea5623b56cbbd1f5472c22fe494c930ab91f175a20bc2"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[bowtie]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1e45a2c0991acae428e127f88a066af1447d258c"
+libc = "glibc"
+os = "linux"
+
+    [[bowtie.download]]
+    sha256 = "929e32f6af27d7be2b05dee52e5cdaef1f64f8a140da51b7e622ea47303ac7a6"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[bowtie]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a7072bc45a98009cf819f426af99e29e69d186f6"
+libc = "musl"
+os = "linux"
+
+    [[bowtie.download]]
+    sha256 = "94756858729250b4b7f1f6887a557d4024de8f8fbe2d37924655958208d7e626"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.aarch64-linux-musl-cxx03.tar.gz"
+[[bowtie]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3c79efd352898a32dfadce6412037317a138b2a7"
+libc = "musl"
+os = "linux"
+
+    [[bowtie.download]]
+    sha256 = "cc618abfa1deb8f5186f1122237311f4b98b41fc20b55873d5ba1c0fc9f28be9"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.aarch64-linux-musl-cxx11.tar.gz"
 [[bowtie]]
 arch = "x86_64"
-git-tree-sha1 = "76eb3c5e501bce3de32cd08e0b5b7c84e8b28a2e"
+git-tree-sha1 = "9ddceaeef4944107e1f03c8d5b9114dda891f674"
 os = "macos"
 
     [[bowtie.download]]
-    sha256 = "79747f3cbe42fa6fe7156e18b243e65ef5dda093ef8e8d3ca0f2b8c016941b01"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+2/bowtie.v2.5.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "aa3efc7d399464af0d39c29374afb9011a227c9452e045d50328fc417333441e"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.x86_64-apple-darwin.tar.gz"
 [[bowtie]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a1bcee4830b1b70c5f9f9234ba9104f50121ffb9"
+git-tree-sha1 = "a34867b776b8f02fa3342d89a7ac6ab71d60d985"
 libc = "glibc"
 os = "linux"
 
     [[bowtie.download]]
-    sha256 = "fddd26a90726a4840847e1849fd8ef6c4b9ec134cef5f4a36b671103e2335b9e"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+2/bowtie.v2.5.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "ab89c247d8754c60ec55c8ddeac44c10e177f7ce17c9b634821397804955fffa"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[bowtie]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7d1b91b437ab40b12d393805a8054d6120e5df22"
+git-tree-sha1 = "bd9c0c84182150b8551c994ab643388f1fc94615"
 libc = "glibc"
 os = "linux"
 
     [[bowtie.download]]
-    sha256 = "5dfdb74081a7ecd790d9e87200aca426f4cd32831ae1f30ba14a2ea57e43519f"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+2/bowtie.v2.5.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "0ce6002bc01913da1f19fef1f003258e725a29c3c5ee432c876b27783fe403a2"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[bowtie]]
 arch = "x86_64"
-git-tree-sha1 = "240db84091201a6ae1b798eddcffdc9fc36428c5"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4fd53c3bf308b150d00740f7085bcc4a6552b18b"
+libc = "musl"
+os = "linux"
+
+    [[bowtie.download]]
+    sha256 = "29a36b48d5e605666a1a36c903dcbcb96396a87263b5b1239b1eb6937b0a2c22"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.x86_64-linux-musl-cxx03.tar.gz"
+[[bowtie]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6e3707ad2c09905b59e14a9811eefd775e0d2021"
+libc = "musl"
+os = "linux"
+
+    [[bowtie.download]]
+    sha256 = "9b9575a991f74797afd743836060e3cc0d56250259b391240fcd5ad206ebf200"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.x86_64-linux-musl-cxx11.tar.gz"
+[[bowtie]]
+arch = "x86_64"
+git-tree-sha1 = "8c621319fb382bf9a2f488973a8d642f34ce10c3"
 os = "freebsd"
 
     [[bowtie.download]]
-    sha256 = "9cff96f5310b75082378b6bcfc9c7a9a2ea6a4392553734d7b505cadd210b2be"
-    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v2.5.1+2/bowtie.v2.5.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "ad3a91c2c3f04cfc0209a6a40c27701c8d956ddfe94bc840389a82512e3d9d96"
+    url = "https://github.com/JuliaBinaryWrappers/bowtie_jll.jl/releases/download/bowtie-v1.3.1+0/bowtie.v1.3.1.x86_64-unknown-freebsd.tar.gz"
